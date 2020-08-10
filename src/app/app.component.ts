@@ -7,7 +7,11 @@ import { CepService } from './cep.service';
 	styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-	title = 'teste-helpper'
+	title = 'teste-helpper';
+
+	changeTitle(newTitle) {
+		this.title = newTitle;
+	}
 
 	persons = [
 		{
